@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="reset.css">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><h1 id="logo">InteriorDesign</h1></li>
+            <li><h3><a id="home-link-1" class="isActive" href="#main" onclick="myFunction01()">Home</a></h3></li>
+            <li><h3><a id="home-link-2" href="#box-bottom-submain-wrapper" onclick="myFunction02()">About Us</a></h3></li>
+            <li><h3><a id="home-link-3" href="#gallery" onclick="myFunction03()">Collection</a></h3></li>
+            <li><h3><a id="home-link-4" href="#footer-content" onclick="myFunction04()">Contact</a></h3></li>
+        </ul>
+    </header>
+    <div id="main">
+        <div id="text-main">
+            <h2>Dark Interior<br>For Your Room</h2>
+            <h4>Get your dream interior with us!</h4>
+            <div id="button-main">
+                <a href="form.html">
+                    <div class="button" id="get-started">
+                        Get started
+                    </div>
+                </a>
+                <a href="#box-bottom-submain-wrapper">
+                    <div class="button" onmouseenter="whiteArrowFunc()" onmouseleave="orangeArrowFunc()">
+                        Learn More<i id="white-arrow" class="fa fa-fw fa-arrow-right"></i>
+                    </div>
+                </a>
+            </div>
+            <div id="bottom-box" class="bottom-box" onscroll="fadeOutFunc()">
+                <div id="edge">
+                    <h5>01</h5>
+                </div>
+                <div id="bottom-arrows">
+                    <i id="top-left-arrow" class="fa fa-fw fa-angle-double-left"></i>
+                    <i id="top-right-arrow" class="fa fa-fw fa-angle-double-right"></i>
+                </div>
+                <div id="bottom-square">
+                    <i id="square-1" class="fa fa-fw fa-circle top-white"></i>
+                    <i id="square-2" class="fa fa-fw fa-circle"></i>
+                    <i id="square-3" class="fa fa-fw fa-circle"></i>
+                    <i id="square-4" class="fa fa-fw fa-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div id="photos-main">
+            <div class="box" id="boxOne"></div>
+            <div class="box" id="boxTwo"></div>
+            <div class="box" id="boxThree"></div>
+        </div>
+    </div>
+    <div id="sub-main">
+        <div id="top-submain-wrapper">
+                <div id="left-the-box" class="theBox">
+                        <h3>Design Consultant</h3>
+                        <h4>Get free Inspiration</h4>
+                    </div>
+                    <div class="theBox" id="middle-the-box">
+                        <h3>Make it Special</h3>
+                        <h4>Discover your dream room</h4>
+                    </div>
+                    <div id="right-the-box" class="theBox">
+                        <h3>Awesome Room</h3>
+                        <h4>Hire us today!</h4>
+                    </div>
+        </div>
+        <div id="box-bottom-submain-wrapper">
+                <div class="box-image1" id="bI1"></div>
+                <div class="box-image2" id="bI2"></div>
+                <div class="box-image-text">
+                    <h3>Discover our<br>Project</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit something dummy text for this site and even more dummy text</p>
+                    <div class="button" id="view-more-button">
+                        View More
+                    </div>
+                </div>
+        </div>
+        <div id="learnMore-bottom-wrapper">
+            <div class="box1" id="box1-left">
+                <div class="mini-box1"></div>
+                <div class="mini-box1" id="top-mini-box-1">
+                    <h3 id="top-mini-box-1-text"></h3>
+                </div>
+            </div>
+            <div class="box1" id="box1-middle-left">
+                <div class="mini-box2"></div>
+                <div class="mini-box2" id="top-mini-box-2">
+                    <h3 id="top-mini-box-2-text"></h3>
+                </div>
+            </div>
+            <div class="box1" id="box1-middle-right">
+                <div class="mini-box3"></div>
+                <div class="mini-box3" id="top-mini-box-3">
+                    <h3 id="top-mini-box-3-text"></h3>
+                </div>
+            </div>
+            <div class="box1" id="box1-right">
+                <div class="mini-box4"></div>
+                <div class="mini-box4" id="top-mini-box-4">
+                    <h3 id="top-mini-box-4-text"></h3>
+                </div>
+            </div>
+        </div>
+        <div id="client-rev-wrapper">
+            <h3>Some of what our Clients Say..</h3>
+            <div class="client-image" id="client-img">
+            </div>
+            <div class="client-image1" id="client-img1">
+                <div id="review" class="review-1">
+                     <p id="rev">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime odit quaerat,Lorem ipsum dolor sit amet consectetur</p>   
+                </div>
+                <div class="review-user">
+                    <div id="user-pic" class="user-pic-1">
+                        
+                    </div>
+                    <div id="user-name" class="user-name">
+                        Joe Santiago
+                    </div>
+                    <div id="rev-counter">
+                        Review <span>1</span> of <span>3</span>
+                    </div>
+                    <div class="review-slider">
+                        <div id="bottom-arrows">
+                            <i id="bottom-left-arrow" class="fa fa-fw fa-angle-double-left"></i>
+                            <i id="bottom-right-arrow" class="fa fa-fw fa-angle-double-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery">
+            <div class="gallery-header">
+                <div class="gallery-header-top">
+                    <h3>Menu</h3>
+                    <h3>Latest Projects</h3>
+                </div>
+                <div class="gallery-header-bottom">
+                    <h5 id="dubai-links" class="isActive" onclick="Dubaifunction()">Dubai, Kuwait</h5>
+                    <h5 id="LV-links" class="notActive" onclick="LVfunction()">Las Vegas, USA</h5>
+                    <h5 id="can-links" class="notActive" onclick="Canadafunction()">Toronto, Canada</h5>
+                    <h5 id="ice-links" class="notActive" onclick="Icelandfunction()">Rejkjavik, Iceland</h5>
+                </div>
+                <div class="gallery-wrapper-1">
+                    <div class="gallery-box" id="box-1"></div>
+                    <div class="gallery-box" id="box-2"></div>
+                    <div class="gallery-box" id="box-3"></div>
+                </div>
+                <div class="gallery-wrapper-2">
+                    <div class="gallery-box" id="box-4"></div>
+                    <div class="gallery-box" id="box-5"></div>
+                </div>
+            </div>
+        </div>
+        <div id="contact-us">
+            <div id="container-contact">
+                <div id="contact-header">
+                    <h3>Any Questions? Get in Touch!</h3>
+                </div>
+                <div id="contact-icons">
+                    <div id="top-icons">
+                        <h4 class="left">E-mail</h4><i class="fa fa-fw fa-envelope"></i>
+                        <h4>Phone</h4><i class="fa fa-fw fa-phone"></i>
+                        <h4>Home</h4><i class="fa fa-fw fa-home"></i>
+                    </div>
+                    <ul id="bottom-row-icons">
+                        <li><a><i class="fa fa-fw fa-facebook-square"></i></a></li>
+                        <li><a><i class="fa fa-fw fa-instagram"></i></a></li>
+                        <li><a><i class="fa fa-fw fa-twitter-square"></i></a></li>
+                        <li><a><i class="fa fa-fw fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer-content">
+                <h5>Created By Matthew Kostka</h5>
+                <h6>@ 2020</h6>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
